@@ -39,7 +39,7 @@ def main(drag=0.02, grav=1.5, bottom='bounce', left='bounce', right='bounce', to
 
     if allsides:
         top=right=left=bottom=allsides
-    print(top, bottom)
+    print((top, bottom))
 
 
     m = PyMouse()
